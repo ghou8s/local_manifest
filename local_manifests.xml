@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="ghou8s" fetch="https://github.com/ghou8s" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="ghou8s" revision="qassa" />
+        <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="ghou8s" revision="qassa" />
+        <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="ghou8s" revision="10" />
+        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ghou8s" revision="thirteen" />
+
+</manifest>
