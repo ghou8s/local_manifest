@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
         <!-- Remote -->
-        <remote name="ghou8s" fetch="https://github.com/ghou8s" clone-depth="1" />
-
+        <remote name="deny2311" fetch="https://github.com/deny2311" clone-depth="1" />
+	<remote name="trisf" fetch="https://gitlab.com/trisf" clone-depth="1" />
+		
         <!-- Trees -->
-        <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="ghou8s" revision="qassa" />
-        <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="ghou8s" revision="qassa" />
-        <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="ghou8s" revision="10" />
-        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ghou8s" revision="thirteen" />
-
+        <project path="device/xiaomi/sagit" name="device_xiaomi_sagit-10" remote="deny2311" revision="Q" />
+        <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common-10" remote="deny2311" revision="Q" />
+        <project path="vendor/xiaomi/" name="vendor_xiaomi-10" remote="deny2311" revision="10" />
+        <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998-10" remote="deny2311" revision="10" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r383902" name="prebuilts_clang_host_linux-x86_clang-r383902" remote="deny2311" revision="10" />
+	<project path="vendor/apps/MiuiCamera" name="vendor_apps_MiuiCamera-10" remote="deny2311" revision="10" />
+	<project path="vendor/apps/firmware-sagit" name="vendor_apps_firmware-sagit" remote="trisf" revision="10" />
 </manifest>
