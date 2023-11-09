@@ -9,6 +9,6 @@
         <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="ghou8s" revision="qassa" />
         <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="ghou8s" revision="qassa" />
         <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="ghou8s" revision="10" />
-        <project path="kernel/xiaomi/beryllium" name="Lethal-Kernel-KSU" remote="Gustyx-Power" revision="14" />
+        <project path="kernel/xiaomi/beryllium" name="Lethal-Kernel-KSU" remote="Gustyx-Power" revision="ksu" />
 
 </manifest>
