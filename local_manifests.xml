@@ -4,10 +4,12 @@
         <!-- Remote -->
         <remote name="ghou8s" fetch="https://github.com/ghou8s" clone-depth="1" />
         <remote name="jandaX" fetch="https://github.com/jandaX" clone-depth="1" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/joyeuse" name="android_device_xiaomi_joyeuse" remote="ghou8s" revision="nad" />
         <project path="vendor/xiaomi/joyeuse" name="android_vendor_xiaomi_joyeuse" remote="ghou8s" revision="qassa" />
         <project path="kernel/xiaomi/joyeuse" name="kernel_xiaomi_joyeuse" remote="jandaX" revision="Sershen" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
