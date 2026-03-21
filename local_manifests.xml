@@ -4,11 +4,13 @@
         <!-- Remote -->
         <remote name="ghou8s" fetch="https://github.com/ghou8s" clone-depth="1" />
         <remote name="Gustyx-Power" fetch="https://github.com/Gustyx-Power" clone-depth="1" />
+        <remote name="SonalSingh18" fetch="https://github.com/SonalSingh18" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="ghou8s" revision="qassa" />
         <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="ghou8s" revision="qassa" />
         <project path="vendor/xiaomi/" name="vendor_xiaomi" remote="ghou8s" revision="10" />
         <project path="kernel/xiaomi/beryllium" name="Lethal-Kernel-KSU" remote="Gustyx-Power" revision="ksu" />
+        <project path="vendor/aeonax/ANXCamera" name="vendor_aeonax_ANXCamera" remote="SonalSingh18" revision="master" />
 
 </manifest>
